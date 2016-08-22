@@ -39,9 +39,10 @@ parse = ->
 	flags = document.querySelectorAll('.flag-list input')
 	max = pow2 flags.length + 1
 	newValue = parseInt document.getElementById('flag').value, 10
+	console.log(newValue)
 
-	if !newValue
-		return
+	if isNaN(newValue)
+		newValue = 0
 
 	for flag in [flags.length - 1..0]
 		pow = pow2 flag
