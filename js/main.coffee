@@ -4,6 +4,9 @@ loadLanguage = (lang) ->
 	if lang == undefined
 		lang = 'en'
 
+	if (!baseUrl?)
+		baseUrl = '.'
+
 	url = baseUrl + '/lang/' + lang + '.json'
 	fetch(url).then((response) ->
 		return response.json()
@@ -57,7 +60,6 @@ recalculate = ->
 	document.getElementById('flag').value = val
 	return
 
-
 document.addEventListener 'DOMContentLoaded', ->
 	loadLanguage()
 	for el in document.querySelectorAll '.flag-list input'
@@ -70,4 +72,17 @@ document.addEventListener 'DOMContentLoaded', ->
 	document.getElementById('flag').addEventListener 'input', parse
 	return
 
+toggleAll = ->
+  document.getElementById('toggleAll').addEventListener 'click', ->
+    checkboxes = document.getElementsByName('flag')
+    i = 0
+    n = checkboxes.length
+    while i < n
+      checkboxes[i].checked = this.checked
+      i++
+    recalculate()
+    return
+  return
+
 recalculate()
+toggleAll()

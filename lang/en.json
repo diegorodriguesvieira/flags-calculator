@@ -39,12 +39,11 @@
     "CannotBeMuted": "Can not be muted",
     "IsAlwaysPremium": "Has infinite premium account",
     "CanAnswerRuleViolations": "Can answer rule violations",
-    "Unassigned": "Can reload content",
+    "CanReloadContent": "Can reload content",
     "ShowGroupNameInsteadOfVocation": "Show group instead of vocation",
-    "HasInfiniteStamina": "Has infinite stamina",
     "CannotMoveItems": "Can not push items",
     "CannotMoveCreatures": "Can not push creatures",
     "CanReportBugs": "Can file bug reports",
-    "Unassigned": "Can see special description",
+    "CanSeeSpecialDescription": "Can see special description",
     "CannotBeSeen": "Can not be seen"
 }

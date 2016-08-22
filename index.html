@@ -11,7 +11,7 @@ layout: default
       {% for flag in site.flags %}
         {% capture col %}{% cycle 'duck', 'duck', 'goose' %}{% endcapture %}
 
-        <div><input type="checkbox" value="{{ flag[0] }}"><span data-translate="{{ flag[1] }}"></span></div>
+        <div><input type="checkbox" name="flag" value="{{ flag[0] }}"><span data-translate="{{ flag[1] }}"></span></div>
 
         {% if col == 'goose' %}
       </div>
@@ -19,6 +19,10 @@ layout: default
         {% endif %}
       {% endfor %}
     </div>
+  </section>
+
+  <section>
+    <input id="toggleAll" type="checkbox" /> Toggle All<br/>
   </section>
 
   <section class="lang-list">

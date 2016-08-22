@@ -39,12 +39,11 @@
     "CannotBeMuted": "Não pode ser mutado",
     "IsAlwaysPremium": "Possui premium account infinita",
     "CanAnswerRuleViolations": "Pode responder rule violations",
-    "Unassigned": "Pode recarregar conteúdo",
+    "CanReloadContent": "Pode recarregar conteúdo",
     "ShowGroupNameInsteadOfVocation": "Mostrar grupo ao invés da vocação",
-    "HasInfiniteStamina": "Possui stamina infinita",
     "CannotMoveItems": "Não pode mover items",
     "CannotMoveCreatures": "Não pode mover criaturas",
     "CanReportBugs": "Pode reportar bugs",
-    "Unassigned": "Pode ver descrição especial",
+    "CanSeeSpecialDescription": "Pode ver descrição especial",
     "CannotBeSeen": "Não pode ser visto"
 }

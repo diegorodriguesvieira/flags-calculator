@@ -1,11 +1,12 @@
 # Site settings
-title: OT Flag Calculator
-email: your-email@domain.com
+title: OTHire Flags Calculator
+email: diegorodrigues92@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Open Tibia Flags Calculator is an automatic calculator for Open Tibia server
+  OTHire Flags Calculator is an automatic calculator for OTHire Open Tibia server
   player access and permissions system.
-baseurl: "/flags-calculator" # the subpath of your site, e.g. /blog/
-url: "https://ranisalt.github.io" # the base hostname & protocol for your site
+# baseurl: "/others/flags-calculator" # production
+baseurl: "" # localhost
+url: "https://diegorodriguesvieira.github.io" # the base hostname & protocol for your site
 
 lang: ['en', 'br']
 flags:
@@ -48,14 +49,13 @@ flags:
   36: CannotBeMuted
   37: IsAlwaysPremium
   38: CanAnswerRuleViolations
-  39: Unassigned
+  39: CanReloadContent
   40: ShowGroupNameInsteadOfVocation
-  41: HasInfiniteStamina
-  42: CannotMoveItems
-  43: CannotMoveCreatures
-  44: CanReportBugs
-  45: Unassigned
-  46: CannotBeSeen
+  41: CannotMoveItems
+  42: CannotMoveCreatures
+  43: CanReportBugs
+  44: CanSeeSpecialDescription
+  45: CannotBeSeen
 
 # Build settings
 markdown: kramdown
