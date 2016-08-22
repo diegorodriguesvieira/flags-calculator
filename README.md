@@ -22,6 +22,18 @@ cd flags-calculator
 bundle install
 ```
 
+### Set the project to run locally
+* Open _config.yml
+
+Comment this line:
+```
+# baseurl: "/flags-calculator" # production
+```
+Uncomment this line:
+```
+baseurl: "" # localhost
+```
+
 #### Finally run it ;)
 ```
 bundle exec jekyll serve
